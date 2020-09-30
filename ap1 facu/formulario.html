@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta lang="pt-br" charset="UTF-8">
+    <style>
+        .sub_menu{
+            padding: 20px;
+            border-radius: 5px;
+            margin-left: 40px;
+            width: 100%;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #menu, #corpo{
+            display: flex;
+        }
+        .conteudo{
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+    </head>
+    <body>
+        <div id="menu">
+            <div class="sub_menu">
+                <a href="principal.html">Inicio</a>
+            </div>
+            <div class="sub_menu">
+                Serviços
+            </div>
+            <div class="sub_menu">
+                <a href="aboutme.html">Sobre</a>
+            </div>
+            <div class="sub_menu" style="color: green; font-size: 25px;">
+                <b>Eu</b>
+            </div>
+            <div class="sub_menu">
+                Portifolio 
+            </div>
+            <div class="sub_menu">
+                Cliente
+            </div>
+            <div class="sub_menu">
+                Contato
+            </div>
+        </div>
+        <h1 style="text-align: center; ">Contato</h1>
+        <div>
+            <label for="name">Nome</label>
+            <input type="text" id="pnome" placeholder="Primeiro nome" style="width: 300px;" >
+            <label for="psobrenome">Último nome</label>
+            <input type="text" id="psobrenome" style="width: 300px;" placeholder="Digite seu útimo nome"><br>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" style="width: 600px;" placeholder="Digite seu endereço de -mail"><br>
+            <label for="assunto">Título da mesagem</label>
+            <input type="text" id="assunto" placeholder="Digite o assunto da mesagem" style="width: 300px;"><br>
+            <label for="msg">Mensagem</label><br>
+            <textarea cols="45" rows="10" placeholder="Digite a mensagem aqui..."></textarea>
+        </div>
